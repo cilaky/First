@@ -18,6 +18,7 @@ namespace MvcTest.Controllers
 
         public ActionResult Test()
         {
+            ViewBag.bonjour = "Bonjour à tous";
             return View();
         }
     }
